@@ -2,10 +2,15 @@
 
 //alert( 3 + 3)// it won't work because we are using NodeJS, it will work in browsers (v8 Engines)
 
-let number = 2
+//console.log(3+3);
+
+
+let age = 2
 let name = "ABC"
 let state;
 let isLoggedIn = false
+
+
 
 /* Primitive DataTypes */
 
@@ -18,4 +23,18 @@ let isLoggedIn = false
 //symbol => to find out unique components (e.g: used in figma components)
 
 
+//object
+
+
+console.log(typeof age);
+console.log(typeof name);
+console.log(typeof state);
 console.log(typeof isLoggedIn);
+
+
+
+console.log(typeof null); //type => object
+console.log(typeof undefined); //type => undefined
+
+
+
